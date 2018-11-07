@@ -1,0 +1,5 @@
+KO
+cupidphp\core\Exception: Class 'Memcached' not found in /var/www/vendor/cupidphp-dist/releases/1.10.13/lib/Cache/Memcache.php:18
+Stack trace:
+#0 [internal function]: cupidphp\lib\ErrorHandler::cupidphp\lib\{closure}(Object(Error))
+#1 {main}

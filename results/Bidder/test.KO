@@ -1,0 +1,5 @@
+KO
+cupidphp\core\Exception: syntax error, unexpected ''languages'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in /var/www/vhost/publisher/application/src/monetizeme/api/Model/Prog/Platform/Yeesshh.php:432
+Stack trace:
+#0 [internal function]: cupidphp\lib\ErrorHandler::cupidphp\lib\{closure}(Object(ParseError))
+#1 {main}

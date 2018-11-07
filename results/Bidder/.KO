@@ -1,0 +1,12 @@
+KO
+cupidphp\core\Exception: monetizeme\batch\Controller\Bidder: method index not implemented in /var/www/vendor/cupidphp-dist/releases/1.10.13/core/Proxy.php:599
+Stack trace:
+#0 [internal function]: cupidphp\core\Proxy->__call('index', Array)
+#1 /var/www/vendor/cupidphp-dist/releases/1.10.13/common/Util.php(384): call_user_func_array(Array, Array)
+#2 /var/www/vendor/cupidphp-dist/releases/1.10.13/core/Proxy.php(423): cupidphp\common\Util::call_user_method_array(Object(monetizeme\batch\Controller\Bidder), 'index', Array, true)
+#3 /var/www/vendor/cupidphp-dist/releases/1.10.13/core/Router.php(168): cupidphp\core\Proxy->callUserMethodArray('index', Array)
+#4 /var/www/vendor/cupidphp-dist/releases/1.10.13/common/Batch/Application.php(28): cupidphp\core\Router->resolveRoute('monetizeme/batc...')
+#5 /var/www/vendor/cupidphp-dist/releases/1.10.13/core/Application.php(141): cupidphp\common\Batch\Application->_getResponse('monetizeme/batc...')
+#6 /var/www/vendor/cupidphp-dist/releases/1.10.13/core/Application.php(115): cupidphp\core\Application->_run('monetizeme/batc...')
+#7 /var/www/vhost/publisher/batch.php(47): cupidphp\core\Application::run('monetizeme/batc...')
+#8 {main}

@@ -1,0 +1,5 @@
+KO
+cupidphp\core\Exception: syntax error, unexpected ')', expecting ';' in /var/www/vhost/publisher/application/src/monetizeme/api/Model/Prog/Platform/SelfAdvertiser.php:285
+Stack trace:
+#0 [internal function]: cupidphp\lib\ErrorHandler::cupidphp\lib\{closure}(Object(ParseError))
+#1 {main}

@@ -1,0 +1,11 @@
+KO
+cupidphp\core\Exception: Resource not found in /var/www/vendor/cupidphp-dist/releases/1.10.13/core/Router.php:72
+Stack trace:
+#0 [internal function]: cupidphp\common\Batch\Router->cupidphp\core\{closure}(Object(cupidphp\core\Application\Conf))
+#1 /var/www/vendor/cupidphp-dist/releases/1.10.13/core/Behaviour/Injectable.php(137): call_user_func(Object(Closure), Object(cupidphp\core\Application\Conf))
+#2 /var/www/vendor/cupidphp-dist/releases/1.10.13/core/Router.php(125): cupidphp\core\DependencyInjector->__get('subject')
+#3 /var/www/vendor/cupidphp-dist/releases/1.10.13/common/Batch/Application.php(28): cupidphp\core\Router->resolveRoute('monetizeme/batc...')
+#4 /var/www/vendor/cupidphp-dist/releases/1.10.13/core/Application.php(141): cupidphp\common\Batch\Application->_getResponse('monetizeme/batc...')
+#5 /var/www/vendor/cupidphp-dist/releases/1.10.13/core/Application.php(115): cupidphp\core\Application->_run('monetizeme/batc...')
+#6 /var/www/vhost/publisher/batch.php(47): cupidphp\core\Application::run('monetizeme/batc...')
+#7 {main}

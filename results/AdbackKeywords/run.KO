@@ -1,0 +1,5 @@
+KO
+cupidphp\core\Exception: Call to a member function db() on null in /var/www/vhost/publisher/application/src/monetizeme/batch/Model/AdbackKeywords.php:116
+Stack trace:
+#0 [internal function]: cupidphp\lib\ErrorHandler::cupidphp\lib\{closure}(Object(Error))
+#1 {main}

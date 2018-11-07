@@ -1,0 +1,5 @@
+KO
+cupidphp\core\Exception: Class 'monetizeme\batch\Model\CampaignsForTesting' not found in /var/www/vendor/cupidphp-dist/releases/1.10.13/core/Controller.php:37
+Stack trace:
+#0 [internal function]: cupidphp\lib\ErrorHandler::cupidphp\lib\{closure}(Object(Error))
+#1 {main}
